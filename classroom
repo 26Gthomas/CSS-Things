@@ -44,8 +44,9 @@
     background: #131719
 }
 body {
-    background-size: cover;
+    background-size: contain;
     background-image: var(--bgimage);
+    background-repeat: repeat;
 }
 .JPdR6b, .HyS0Qd .n9IS1, .HyS0Qd:not(.RDPZE):hover .n9IS1, .ETRkCe, .yckQJf, .d4Fe0d, .GWZ7yf, .Aopndd, .F7l5Ob-xl07Ob, .hgjBDc, .DShyMc-MjA4MDYzNzQ5ODla .tUJKGd:not(.xp2dJ):not(.rZXyy):hover.j6KDAd, .DShyMc-MjA4MDYzNzQ5ODla .tUJKGd:not(.xp2dJ):not(.rZXyy):hover.idtp4e, .DShyMc-MjA4MDYzNzQ5ODla .tUJKGd:not(.xp2dJ):not(.rZXyy):hover .j6KDAd, .DShyMc-MjA4MDYzNzQ5ODla .tUJKGd:not(.xp2dJ):not(.rZXyy):hover .idtp4e, .DShyMc-MjA4MDYzNzQ5ODla .ZoT1D:hover.j6KDAd, .DShyMc-MjA4MDYzNzQ5ODla .ZoT1D:hover.idtp4e, .DShyMc-MjA4MDYzNzQ5ODla .ZoT1D:hover .j6KDAd, .DShyMc-MjA4MDYzNzQ5ODla .ZoT1D:hover .idtp4e, .YEeyed, .VUfVLb, thead .qwFLJb, .xdKj9c.kTKNNc, .Je07k.kTKNNc, tbody .qwFLJb.kTKNNc, .xdKj9c, .Je07k, tbody .qwFLJb, .ncFHed, .aSjeL.aSjeL td, .TJtJXb:hover td, .tYQn5c:hover td, .DC55n:hover td, .wSo7x, .feojCc, .cLpBac, .Ipq4h, .cr8auc, .E8HiIc, .RpYYWb, .fEejq.qeTOO .dKKcxf, .fEejq.qeTOO .STMvPe, .hYt5f.EfvGO .WkZsyc, .CAntkd:focus, .S6Vdac:focus, .KeIaWd, .hm8fac.cNxwhc, .cQ1lCe, .uQ3ESd, .D3oBEe .qTs5Xc {
     background: #1b2022;
