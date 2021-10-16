@@ -1,4 +1,5 @@
 @-moz-document domain("mbgsd-sapphire.k12system.com") {
+/*Main*/
 /*Variables*/
 :root {
     --bgimage: url("https://raw.githubusercontent.com/26Gthomas/CSS-Things/main/Site%20Background.svg")
@@ -11,20 +12,100 @@ body {
     background-size: contain;
     background-repeat: repeat;
 }
+}
+
+@-moz-document url-prefix("https://mbgsd-sapphire.k12system.com/CommunityWebPortal/_app/#/") {
+/*Navbar*/
+
+.basic-header {
+    background: #1b2022 !important;
+}
+
+.dropdown-toggle:hover {
+    background: none !important;
+}
+
+.dropdown-header.selected-student-header-item {
+    color: #fff;
+    background: #1b2022 !important;
+}
+
+.dropdown-menu.show-menu {
+    border: 0.525rem solid #1b2022;
+    border-radius: 0.5rem;
+    background-color: #1b2022 !important
+}
+
+.col-xs-9, .col-xs-9:hover {
+    color: #fff;
+    background: #1b2022 !important;
+}
+
+.col-xs-3, .col-xs-3:hover {
+    background: #1b2022 !important;
+}
+
+.selected-student-item, .selected-student-item:hover, .pointer {
+    background: #1b2022 !important;
+}
+}
+
+@-moz-document url-prefix("https://mbgsd-sapphire.k12system.com/CommunityWebPortal/_app/#/") {
+/*Home*/
 
 .panel-heading {
-    background: #ff8 !important;
+    background: #1b2022 !important;
+    border: 0.525rem solid #1b2022;
+    border-radius: 0.5rem;
+}
+
+
+.panel.panel-plain.dash-student {
+    border: 0.525rem solid #1b2022;
+    border-radius: 0.5rem;
+}
+
+
+.panel.panel-blank {
+    border: 0.525rem solid #1b2022;
+    border-radius: 0.5rem;
+    background-color: #313739;
+}
+
+p {
+    color: #fff;
+    font-size: 12px
+}
+
+.panel-title {
+    color: #fff !important;
+}
+
+.panel-body.collapse, #panel-body-assignments {
+    background: #464646 !important;
+}
+
+.panel.panel-basic.class-assignments.owl-heading {
+    background: #1b2022 !important;
+    border: 0.525rem solid #1b2022 !important;
+    border-radius: 0.5rem !important;
+}
+
+.owl-prev, .owl-next {
+    border: 0.25rem solid #1b2022 !important;
+    border-radius: 0.5rem !important;
+    background: #313739 !important;
 }
 }
 
-@-moz-document url-prefix("https://mbgsd-sapphire.k12system.com/CommunityWebPortal/_auth/index.cfm/security/login/") {
+@-moz-document url-prefix("https://mbgsd-sapphire.k12system.com/CommunityWebPortal/_auth/index.cfm/security/") {
 /*Login*/
 
 .splash-container.container {
     background-image: url("");
 }
 
-.text-center, .alert.alert-info, .btn.btn-block.btn-info, .secondary-links, hr {
+.text-center, .alert.alert-info, .btn.btn-block.btn-info, .secondary-links, .alert.alert-warning, hr {
     display: none;
 }
 
@@ -35,7 +116,20 @@ body {
 .district-name {
     font-family: cursive;
     font-weight: 700;
+    font-size: 18px !important;
     color: #fff !important;
+}
+
+label {
+    color: #fff !important;
+}
+
+footer{
+    display: none;
+}
+
+.container-fluid {
+    background-color: #131719 !important;
 }
 
 #formContent {
@@ -45,4 +139,18 @@ body {
 .btn.btn-block.btn-primary {
     background-color: #1b2022
 }
+
+.visible-lg-inline {
+    font-weight: 550 !important;
+    font-size: 25px !important;
+}
+
+.sf.sf-comunity-web-portal {
+    font-size: 0px; 
+}
+}
+
+@-moz-document url-prefix("https://mbgsd-sapphire.k12system.com/CommunityWebPortal/_app/#/courses-grades") {
+/*Grades*/
+
 }
