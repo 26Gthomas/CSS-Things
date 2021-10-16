@@ -1,7 +1,7 @@
 @-moz-document url-prefix("https://classroom.google.com") {
 /* Normal Classroom code */
 :root {
-    --bgimage: url("https://cdn.pling.com/img/1/5/b/f/9528ee6c98ac6b2e6f3046c53359bcc095f1.jpg");
+    --bgimage: url("https://raw.githubusercontent.com/26Gthomas/CSS-Things/main/Site%20Background.svg");
 }
 /* Normal Classroom code */
 
