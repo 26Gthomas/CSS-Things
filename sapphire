@@ -1,0 +1,48 @@
+@-moz-document domain("mbgsd-sapphire.k12system.com") {
+/*Variables*/
+:root {
+    --bgimage: url("https://raw.githubusercontent.com/26Gthomas/CSS-Things/main/Site%20Background.svg")
+}
+
+/*Main Background*/
+
+body {
+    background-image: var(--bgimage);
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+.panel-heading {
+    background: #ff8 !important;
+}
+}
+
+@-moz-document url-prefix("https://mbgsd-sapphire.k12system.com/CommunityWebPortal/_auth/index.cfm/security/login/") {
+/*Login*/
+
+.splash-container.container {
+    background-image: url("");
+}
+
+.text-center, .alert.alert-info, .btn.btn-block.btn-info, .secondary-links, hr {
+    display: none;
+}
+
+.welcome-login.text-center {
+    display: block;
+}
+
+.district-name {
+    font-family: cursive;
+    font-weight: 700;
+    color: #fff !important;
+}
+
+#formContent {
+    background-color: #131719 !important;
+}
+
+.btn.btn-block.btn-primary {
+    background-color: #1b2022
+}
+}
