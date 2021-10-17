@@ -71,11 +71,12 @@ body {
     border-color: #1b2022 !important;
 }
 /* Colors */
-.IqJTee, .FeRvI .jO7h3c, .qTs5Xc, .poFWNe, .Ag5Pwe, .Shk6y, .asQXV, .rpo4wf, .nk37z, .Evt7cb, .Evt7cb:visited, .IMvYId, .IMvYId:visited, .sdDCme, .K6Ovqd, .pco8Kc, .bKJwEd, .L9GLUe, .A6dC2c, .DShyMc-Mzk5MjAzNTQ3Njla .nRLOzd:hover, .DShyMc-Mzk5MjAzNTQ3Njla .nRLOzd:hover *, .DShyMc-Mzk5MjAzNTQ3Njla .nRLOzd:focus, .DShyMc-Mzk5MjAzNTQ3Njla .nRLOzd:focus *, .iph-dialog .iph-dialog-title, .iph-dialog-content, .QNajvd, .YVvGBb, .nforOe, .snyEZe .F7l5Ob-lPRnje, .F7l5Ob-FO6che, .jjooHc, .onkcGd, .onkcGd:visited, .ubVkr .AJAAmf, .DPvwYc, .jO7h3c, .rwnykc, .s7bwNb, .DShyMc-Mzk5MjAzNTQ3Njla .HyS0Qd:not(.RDPZE) .zHQkBf, .DShyMc-Mzk5MjAzNTQ3Njla .fWf7qe:not(.RDPZE) .tL9Q4c, .DShyMc-Mzk5MjAzNTQ3Njla .D3oBEe:not(.RDPZE) .zHQkBf, .DShyMc-Mzk5MjAzNTQ3Njla .AkVYk:not(.RDPZE) .tL9Q4c, .CYSZae, .lziZub, .lziZub:visited, .nGi02b, .tLDEHd, .KHxj8b, .Lzdwhd-AyKMt, .JsqLM, .wMvEnb, .apFsO.onkcGd, .apFsO.onkcGd:visited, .oBSRLe, .hqfVKd, .Lzdwhd-AyKMt::placeholder, .O98Lj, .Lzdwhd-BrZSOd, .yY3pFc-BrZSOd, .F1pOBe, .UYUfn, .waffle-theme-title, .oCUiN .j1BhHb, .asQXV-FGzYL, .bUqWxf, .EKkFUc .bUqWxf, .mHg3mf .wMrVoe, .x4sAde, .x4sAde:visited, .tLDEHd-Wvd9Cc, .FdiTFb, .LrUtTe, .MocG8c, .LCRwqc .zHQkBf, .TAjiIf a, .i9glDf, .ksaOtd, .ECK80e, .Kqfayb, .FMzRdf, .BgHQ3e, .MuGjgf, .RpYYWb, .qEVLZc, .dDKhVc, .asQXV, .udxSmc, .whsOnd, .gb_6c.gb_7c, .UvCNFb, .ApGtuc, .n9QKGb, .HgKLRe .zHQkBf, .EV3wqc>a:focus, .EV3wqc>a:hover, .J33wTc, .DShyMc-MTQ3OTA0NDgzNzM5.VnOHwf-Tvm9db, .DShyMc-MTQ3OTA0NDgzNzM5 .VnOHwf-Tvm9db, .DShyMc-MTQ3OTA0NDgzNzM5.CNpREd .VnOHwf-Tvm9db, .ciEgyd, .WdYux, .WOPwXe, .ViCi4 {
+.IqJTee, .FeRvI .jO7h3c, .qTs5Xc, .poFWNe, .Ag5Pwe, .Shk6y, .asQXV, .rpo4wf, .YVvGBb.rpo4wf:hover, .nk37z, .Evt7cb, .Evt7cb:visited, .IMvYId, .IMvYId:visited, .sdDCme, .K6Ovqd, .pco8Kc, .bKJwEd, .L9GLUe, .A6dC2c, .DShyMc-Mzk5MjAzNTQ3Njla .nRLOzd:hover, .DShyMc-Mzk5MjAzNTQ3Njla .nRLOzd:hover *, .DShyMc-Mzk5MjAzNTQ3Njla .nRLOzd:focus, .DShyMc-Mzk5MjAzNTQ3Njla .nRLOzd:focus *, .iph-dialog .iph-dialog-title, .iph-dialog-content, .QNajvd, .YVvGBb, .nforOe, .snyEZe .F7l5Ob-lPRnje, .F7l5Ob-FO6che, .jjooHc, .onkcGd, .onkcGd:visited, .ubVkr .AJAAmf, .DPvwYc, .jO7h3c, .rwnykc, .s7bwNb, .DShyMc-Mzk5MjAzNTQ3Njla .HyS0Qd:not(.RDPZE) .zHQkBf, .DShyMc-Mzk5MjAzNTQ3Njla .fWf7qe:not(.RDPZE) .tL9Q4c, .DShyMc-Mzk5MjAzNTQ3Njla .D3oBEe:not(.RDPZE) .zHQkBf, .DShyMc-Mzk5MjAzNTQ3Njla .AkVYk:not(.RDPZE) .tL9Q4c, .CYSZae, .lziZub, .lziZub:visited, .nGi02b, .tLDEHd, .KHxj8b, .Lzdwhd-AyKMt, .JsqLM, .wMvEnb, .apFsO.onkcGd, .apFsO.onkcGd:visited, .oBSRLe, .hqfVKd, .Lzdwhd-AyKMt::placeholder, .O98Lj, .Lzdwhd-BrZSOd, .yY3pFc-BrZSOd, .F1pOBe, .UYUfn, .waffle-theme-title, .oCUiN .j1BhHb, .asQXV-FGzYL, .bUqWxf, .EKkFUc .bUqWxf, .mHg3mf .wMrVoe, .x4sAde, .x4sAde:visited, .tLDEHd-Wvd9Cc, .FdiTFb, .LrUtTe, .MocG8c, .LCRwqc .zHQkBf, .TAjiIf a, .i9glDf, .ksaOtd, .ECK80e, .Kqfayb, .FMzRdf, .BgHQ3e, .MuGjgf, .RpYYWb, .qEVLZc, .dDKhVc, .asQXV, .udxSmc, .whsOnd, .gb_6c.gb_7c, .UvCNFb, .ApGtuc, .n9QKGb, .HgKLRe .zHQkBf, .EV3wqc>a:focus, .EV3wqc>a:hover, .J33wTc, .DShyMc-MTQ3OTA0NDgzNzM5.VnOHwf-Tvm9db, .DShyMc-MTQ3OTA0NDgzNzM5 .VnOHwf-Tvm9db, .DShyMc-MTQ3OTA0NDgzNzM5.CNpREd .VnOHwf-Tvm9db, .ciEgyd, .WdYux, .WOPwXe, .ViCi4 {
     color: white;
 }
 .EZrbnd, .XjYjO, .p0oLxb, .l4V7wb .NPEfkd, .Ipq4h {
     color: white !important;
+    background: #131719 !important;
 }
 /* Other */
 .NMm5M {
@@ -91,9 +92,13 @@ body {
     display: inline-block;
 }
 
-.D4ueke.L77Fvb::after {
-    content: "To make the document interface dark, please install my Google Docs dark theme: https://userstyles.org/styles/ 171305";
-    color: white;
+.XjYjO {
+    border: 0.425rem solid #131719;
+    border-radius: 0.5rem;
+}
+
+svg {
+    color: #fff !important;
 }
 }
 
