@@ -57,12 +57,25 @@ body {
     color: #fff !important
 }
 
-.expanded-sm-menu a {
+.expanded-sm-menu a, .collapsed-sm-menu a {
     color: #fff !important
 }
 
-.expanded-sm-menu a {
+.expanded-sm-menu a, .collapsed-sm-menu a {
     background: #464646 !important;
+}
+
+.btn.btn-sm.btn-primary.rounded.sidebar-toggle {
+    background: #1b2022 !important;
+}
+
+.active.hidden-xs a, .hidden-xs a, .nav.navbar-nav.navbar-right .dropdown .dropdown-toggle.text-right {
+    background: #1b2022 !important;
+}
+
+.nav.navbar-nav.navbar-right .dropdown .dropdown-menu.show-menu a {
+    color: #fff !important;
+    background: #1b2022 !important;
 }
 }
 
@@ -70,11 +83,14 @@ body {
 /*Home*/
 
 .panel-heading {
-    background: #0fa3df !important;
-    border: 0.825rem solid #1b2022 !important;
-    border-radius: 0.5rem !important;
+    background: #1b2022 !important;
 }
 
+.panel.panel-blank .panel-heading {
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: -1px
+}
 
 .panel.panel-plain.dash-student {
     border: 0.525rem solid #1b2022;
@@ -168,6 +184,28 @@ footer{
 .form-control {
     background-color: #1b2022 !important;
     color: #fff
+}
+}
+
+@-moz-document url("https://mbgsd-sapphire.k12system.com/CommunityWebPortal/_app/#/student-information") {
+/*Student Information*/
+
+.content-wrapper-aside-l section section {
+    background: #303739 !important;
+    border: 0.5rem solid #303739;
+    border-radius: 1rem;
+    color: #fff !important;
+}
+
+.content-wrapper-aside-l section section div h2 {
+    color: #fff !important;
+    background: #303739 !important;
+}
+
+.content-wrapper-aside-l section h1 {
+    background: #1b2022 !important;
+    border: 0.5rem solid #1b2022;
+    border-radius: 1rem;
 }
 }
 
