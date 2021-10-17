@@ -45,8 +45,24 @@ body {
     background: #1b2022 !important;
 }
 
-.selected-student-item, .selected-student-item:hover, .pointer {
+.selected-student-item, .selected-student-item:hover, .pointer, h2 {
     background: #1b2022 !important;
+}
+
+.relative-container, .expanded-sm-menu {
+    background-color: #464646 !important
+}
+
+.sidebar-item-icon {
+    color: #fff !important
+}
+
+.expanded-sm-menu a {
+    color: #fff !important
+}
+
+.expanded-sm-menu a {
+    background: #464646 !important;
 }
 }
 
@@ -54,9 +70,9 @@ body {
 /*Home*/
 
 .panel-heading {
-    background: #1b2022 !important;
-    border: 0.525rem solid #1b2022;
-    border-radius: 0.5rem;
+    background: #0fa3df !important;
+    border: 0.825rem solid #1b2022 !important;
+    border-radius: 0.5rem !important;
 }
 
 
@@ -148,9 +164,13 @@ footer{
 .sf.sf-comunity-web-portal {
     font-size: 0px; 
 }
+
+.form-control {
+    background-color: #1b2022 !important;
+    color: #fff
+}
 }
 
 @-moz-document url-prefix("https://mbgsd-sapphire.k12system.com/CommunityWebPortal/_app/#/courses-grades") {
 /*Grades*/
-
 }
