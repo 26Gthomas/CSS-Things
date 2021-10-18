@@ -97,6 +97,9 @@ body {
     border-radius: 0.5rem;
 }
 
+.panel.panel-plain.dash-student .panel-heading {
+    margin-top: -1px
+}
 
 .panel.panel-blank {
     border: 0.525rem solid #1b2022;
@@ -127,6 +130,28 @@ p {
     border: 0.25rem solid #1b2022 !important;
     border-radius: 0.5rem !important;
     background: #313739 !important;
+}
+
+#panel-body-panel-grade-updates.panel-body, #panel-body-panel-fees.panel-body {
+    background: #464646 !important;
+}
+
+#panel-body-panel-fees.panel-body h4 {
+    color: #fff !important;
+}
+
+#panel-body-panel-grade-updates.panel-body th {
+    background: #1b2022 !important;
+    color: #fff !important
+}
+
+#panel-body-panel-grade-updates.panel-body td {
+    background: #333333 !important;
+    color: #fff !important
+}
+
+#panel-body-panel-grade-updates.panel-body td a {
+    color: #0303d6
 }
 }
 
@@ -211,4 +236,18 @@ footer{
 
 @-moz-document url-prefix("https://mbgsd-sapphire.k12system.com/CommunityWebPortal/_app/#/courses-grades") {
 /*Grades*/
+
+.col-xs-8.col-sm-8.pointer {
+    background: #1b2022 !important;
+    border: 0.5rem solid #1b2022;
+    border-radius: 0.5rem;
+    left: 1.5%;
+    width: 1000px   
+}
+
+.v-switch-core {
+    display: inline-block !important;
+    position: relative;
+    right: 100%
+}
 }
