@@ -77,6 +77,14 @@ body {
     color: #fff !important;
     background: #1b2022 !important;
 }
+
+a.rudder-help {
+    display: none !important;
+}
+
+h1.header-title {
+    display: none !important;
+}
 }
 
 @-moz-document url-prefix("https://mbgsd-sapphire.k12system.com/CommunityWebPortal/_app/#/") {
@@ -134,6 +142,7 @@ p {
 
 #panel-body-panel-grade-updates.panel-body, #panel-body-panel-fees.panel-body {
     background: #464646 !important;
+    margin-left: -1px
 }
 
 #panel-body-panel-fees.panel-body h4 {
@@ -152,6 +161,10 @@ p {
 
 #panel-body-panel-grade-updates.panel-body td a {
     color: #0303d6
+}
+
+.panel.panel-plain.dash-student .panel-heading {
+    margin-left: -1px
 }
 }
 
@@ -241,13 +254,66 @@ footer{
     background: #1b2022 !important;
     border: 0.5rem solid #1b2022;
     border-radius: 0.5rem;
-    left: 1.5%;
-    width: 1000px   
+    left: 1.2%;
+    width: 400px;
+    height: 46.9px;
+    color: #fff !important;
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 37px;
+    margin: 0px;
 }
 
-.v-switch-core {
-    display: inline-block !important;
+
+.col-xs-4.col-md-4 {
     position: relative;
-    right: 100%
+    top: 1000% !important;
+    left: 5%;
+    width: 70px;
+    background: #1b2022;
+    border: 0.5rem solid #1b2022;
+    border-radius: 0.5rem;
+    padding: 5px
+}
+
+div.col-xs-12 h2, h1 {
+    background: #1b2022 !important;
+    border: 0.5rem solid #1b2022;
+    border-radius: 0.5rem;
+    color: #fff
+}
+}
+
+@-moz-document url-prefix("https://mbgsd-sapphire.k12system.com/CommunityWebPortal/_app/#/class-pages") {
+/*Grades Breakdown*/
+
+.panel.panel-basic.collapsable {
+    border: 0.5rem solid #1b2022 !important;
+    border-radius: 0.5rem !important;
+    background: #1b2022 !important;
+}
+
+.panel-title {
+    font-weight: 550 !important;
+}
+
+
+.grades h2 {
+    visibility: hidden !important;
+}
+
+.header-overlay, .header-home {
+    background: #1b2022 !important;
+    border: 0.5rem solid #1b2022;
+    border-radius: 0.5rem;
+}
+
+.grades ul {
+    background: #303739 !important;
+    color: #fff !important;
+}
+
+a {
+    color: #fff !important;
 }
 }
